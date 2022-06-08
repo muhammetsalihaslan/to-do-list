@@ -1,0 +1,33 @@
+h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.diller{
+    width:15rem;
+    height: 30px;
+    border-radius:10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn{
+    width:rem;
+    height:30px;
+    border-radius:10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.body{
+   
+}
+
+.container{
+
+    width:70vw;
+    height:80vh;
+    /* background-color:orangered; */
+    border-radius:20px;
+    background-image: url(./img/to-do-list-vector-247108.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
