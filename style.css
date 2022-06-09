@@ -3,15 +3,16 @@ h1{
     color: white;
 }
 
-.diller{
+.todo{
     width:15rem;
     height: 30px;
     border-radius:10px;
     font-family: 'Pacifico', cursive;
-    position: absolute;
-    top: 197px;
-    left:40vw;
+    position: relative;
+    top: 150px;
+    left:vw;
     background-color: none;
+    border: none;
 }
 
 .btn{
@@ -19,13 +20,13 @@ h1{
     height:30px;
     border-radius:10px;
     font-family: 'Pacifico', cursive;
-    position: absolute;
-    top: 197px;
-    left: 56vw;
+    position: relative;
+    top: 150px;
+    left: ;
 }
 
 .body{
-   
+   background-color: rgb(43, 12, 43);
 }
 
 .container{
