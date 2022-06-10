@@ -24,7 +24,7 @@ h1{
     background-color: #de3f53;
 }
 
-form{
+.section{
     display: flex;
     width: 100%;
     background-color: #262e4c;
@@ -38,6 +38,7 @@ input{
     padding: 10px;
     width: 90%;
     /* border-radius:5px; */
+    display: inline-block;
 }
 
 button{
@@ -48,4 +49,41 @@ button{
     font-weight: 700;
     /* height: 42px; */
     width: 10%;
+    display: inline-block;
 }
+
+
+
+ul{
+    display:flex;
+    padding: 0;
+    list-style: none;
+    background-color:#262e4c;
+    
+}
+
+li{
+    width:90%;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    
+}
+
+i{
+    float: right;
+    margin: 0;
+}
+
+i:hover{
+    color:#de3f53;
+}
+
+.remove{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #262e4c;
+}
+
