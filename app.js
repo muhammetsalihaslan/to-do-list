@@ -8,13 +8,14 @@ const toDoList = document.querySelector("#todo-part");
 const ul = document.createElement("ul");
 toDoList.appendChild(ul);
 
+
 ///********reaction of html part ****/
 
 addBtn.onclick = function() {
     if(!todoInput.value){
         alert("Please add a task");
     } else {
-        ul.innerHTML += ` <li>${todoInput.value}</li>
+        ul.innerHTML += ` <li class="task">${todoInput.value}</li>
         <button class="remove"><i class="fa-solid fa-trash"></i></button>`;
         todoInput.value = '';
         
@@ -26,3 +27,10 @@ todoInput.addEventListener('keydown', (event) => {
         addBtn.onclick();
     }
 });
+
+
+ul.onclick = function(e){
+    if(e.target.classList.contains('fa-solid fa-trash')){
+        e.target.parentElement.remove();
+    }
+}

@@ -55,7 +55,7 @@ button{
 
 
 ul{
-    display:flex;
+    
     padding: 0;
     list-style: none;
     background-color:#262e4c;
@@ -63,27 +63,30 @@ ul{
 }
 
 li{
-    width:90%;
+    
     margin: 0;
     padding: 10px;
     color: white;
+   
     
 }
 
-i{
+/* i{
     float: right;
     margin: 0;
-}
+} */
 
 i:hover{
     color:#de3f53;
 }
 
 .remove{
-    display:flex;
+    /* display:flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
     background-color: #262e4c;
+    float: right;
+   
 }
 
