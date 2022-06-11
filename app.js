@@ -28,8 +28,9 @@ todoInput.addEventListener('keydown', (event) => {
 });
 
 
-ul.onclick = function(e){
-    if(e.target.classList.contains('fa-solid fa-trash')){
-        e.target.parentElement.remove();
+ul.onclick = function(event) {
+    if(event.target.className == "fa-solid fa-trash"){
+        event.target.closest('.task').remove();
     }
+    
 }
