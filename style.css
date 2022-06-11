@@ -63,30 +63,30 @@ ul{
 }
 
 li{
-    
+    width: 97%;
     margin: 0;
-    padding: 10px;
+    padding:  10px;
     color: white;
-   
-    
 }
 
-/* i{
-    float: right;
-    margin: 0;
-} */
 
 i:hover{
     color:#de3f53;
 }
 
 .remove{
-    /* display:flex;
+    display:flex;
     align-items: center;
     justify-content: center;
-    text-align: center; */
+    /* text-align: center;  */
     background-color: #262e4c;
+    cursor:pointer;
     float: right;
+    margin:0;
    
+}
+
+i{
+    margin-top:0;
 }
 

@@ -15,8 +15,7 @@ addBtn.onclick = function() {
     if(!todoInput.value){
         alert("Please add a task");
     } else {
-        ul.innerHTML += ` <li class="task">${todoInput.value}</li>
-        <button class="remove"><i class="fa-solid fa-trash"></i></button>`;
+        ul.innerHTML += ` <li class="task">${todoInput.value} <button class="remove"><i class="fa-solid fa-trash"></i></button></li>`;
         todoInput.value = '';
         
     }
